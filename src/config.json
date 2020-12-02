@@ -1,0 +1,7 @@
+{
+  "apiUrl": "http://localhost:3001",
+  "auth0": {
+    "domain": "dev-ursxl6w1.us.auth0.com",
+    "clientId": "u1B2xcijFKjZCdczLT2Lls1l0BQk2vTZ"
+  }
+}

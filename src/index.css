@@ -1,4 +1,9 @@
+html, body {
+  height: 100%;
+}
+
 body {
+  background-color: #f6f6f6;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +15,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div.loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.loading > div {
+  background-color: #d8e6fd;
+  border-color: lightslategray;
+  padding: 30px;
+  text-align: center;
+}
+
+div#root {
+  height: 100%;
+}
+
+.MuiCircularProgress-colorPrimary {
+  color: #000 !important;
 }

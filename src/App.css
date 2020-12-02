@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.login {
+  color: #fff;
+}
+
+.MuiCircularProgress-colorPrimary {
+  color: white !important;
+}
